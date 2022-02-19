@@ -1,0 +1,39 @@
+.ipynb_checkpoints/*
+
+## Core latex/pdflatex auxiliary files:
+report.pdf
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+## Build tool auxiliary files:
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+## Ruby files
+Gemfile
+Gemfile.lock
+
+## Bundler files
+presentation/.bundle/*
+presentation/reveal.js/*
+
+
+## html
+presentation/main.html
+
+## Video folder
+presentation/assets/videos*
