@@ -1,4 +1,7 @@
-# Introduction
+# This is work-in-progress!
+# I am slowly generalizing and testing the code for a broader use
+
+## Introduction
 This repository is a showcase of a pipeline of single cell segmentation and tracking to extra useful information (such as intensity over time) form fluorescence intensity images. This data was acquired during my PhD and the pipeline was used to analyze it. I present it here with an example dataset, hoping it might be useful for me and others in the future.
 
 ## Summary workflow
