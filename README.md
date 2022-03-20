@@ -6,11 +6,13 @@ This repository is a showcase of a pipeline of single cell segmentation and trac
 
 ## Example results
 ### Nuclear segmentation
-![nuclei](results/nuclei_boundaries.png, "Nuclei Boundaries")
+<img src="results/nuclei_boundaries.png" alt="nuclei" width="450"/>
+
 ### Cell segmentation
-![cells](results/cell_boundaries.png, "Cells Boundaries")
+<img src="results/cell_boundaries.png" alt="cells" width="450"/>
+
 ### Segmentation and tracking
-![animation](results/segmentation_animation.gif, "Tracking Animation")
+<img src="results/segmentation_animation.gif" alt="tracking-animation" width="450"/>
 
 ## Summary workflow
 The main goal was to extract average fluorescence intensity over time of single cells in different conditions. In order to do this the pipeline involves the following steps:
