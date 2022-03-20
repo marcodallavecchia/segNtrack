@@ -24,3 +24,22 @@ The main goal was to extract average fluorescence intensity over time of single 
 5. Filter and / or select only cells and nuclei that you want for the analysis -> I have integrated point 4 and 5 in corresponding notebooks 02 and 03
 6. Calculate average fluorescence intensities for desider _channels_ in cytoplasmatic and nuclear regions -> scripts/04_nuclear_cytoplasmatic_props.ipynb
 7. Optional: Manipulate / plot data as needed  -> scripts/04_nuclear_cytoplasmatic_props.ipynb
+
+## Installation
+I admit this my first time deploying a relatively-large project, and this onen is not exactly dependency-light. I have tried my best to create a conda environment that can be reproduced.
+
+To run the pipeline create an environment using the env.yml file using conda.
+
+```
+conda env create --file env.yml
+```
+
+Then start a jupyter lab instance:
+
+```
+jupyter lab
+```
+
+## Tested on
+- Python 3.7.6
+- Windows 10.0.19043 Build 19043 (Windows 10 Pro)
